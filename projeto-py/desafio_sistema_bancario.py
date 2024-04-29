@@ -46,7 +46,7 @@ while True:
     #nao permite valores iguais a zero ou negativos
     
          
-  elif opção == ("2"):
+  elif opção == "2":
     print (f"seu saldo atual é: R${Saldo:.2f}")
     valor= float(input("informe o valor do saque: "))
   #saca o valor
